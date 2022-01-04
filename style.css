@@ -1,10 +1,13 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -31,4 +34,28 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 2px 3px 30px rgb(26, 24, 24);
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 50px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    
+}
+#web-dev{
+    border-left: 4px solid;
+    border-image: linear-gradient(tomato, purple);
+    border-image-slice: 1;
+}
+#front-end{
+    border-left: 4px solid;
+    border-image: linear-gradient(teal, cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: end;
 }
